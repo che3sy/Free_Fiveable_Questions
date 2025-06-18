@@ -6,7 +6,7 @@ Allows anyone to get all of [Fiveable](https://fiveable.me/) questions for free
 2. Extract the folder. 
 3. Open the fiveable folder
 4. Open the folder, right-click anywhere in the folder, and press Open in Terminal
-5. Run this command: ``python main.py`` (make sure Python is installed)
+5. Run this command: ``python main.py`` (make sure Python is installed) OR click on the main python file and run it 
 6. Follow the prompts
 
 # Else (you care how it works): 
