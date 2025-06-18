@@ -2,6 +2,7 @@
 Allows anyone to get all of [Fiveable](https://fiveable.me/) questions for free
 
 # If you don't care on how this works
+(make sure python is installed and you have the following packages: requests, json, csv, and os)     
 1. Download the release (fiveable.zip).
 2. Extract the folder. 
 3. Open the fiveable folder
