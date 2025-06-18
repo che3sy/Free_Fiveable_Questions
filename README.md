@@ -8,6 +8,7 @@ Allows anyone to get all of [Fiveable](https://fiveable.me/) questions for free
 4. Open the folder, right-click anywhere in the folder, and press Open in Terminal
 5. Run this command: ``python main.py`` (make sure Python is installed) OR click on the main python file and run it 
 6. Follow the prompts
+7. The csv with all the questions will be saved in the fiveable folder :) 
 
 # Else (you care how it works): 
 ___
