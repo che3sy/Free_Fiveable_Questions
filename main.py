@@ -1,5 +1,3 @@
-import sys
-import time
 from getSlug import refresh_slugs, load_slugs
 from getUnitId import get_subject_navigation
 from getQuestions import get_practice_questions, save_questions_to_csv
