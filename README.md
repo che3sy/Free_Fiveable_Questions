@@ -2,11 +2,12 @@
 Allows anyone to get all of [Fiveable](https://fiveable.me/) questions for free
 
 # If you don't care on how this works
-Download the release (fiveable.zip).
-Extract the folder. 
-Open the folder, right-click anywhere in the folder, and press Open in Terminal
-Run this command: ``python main.py`` (make sure Python is installed)
-Follow the prompts
+1. Download the release (fiveable.zip).
+2. Extract the folder. 
+3. Open the fiveable folder
+4. Open the folder, right-click anywhere in the folder, and press Open in Terminal
+5. Run this command: ``python main.py`` (make sure Python is installed)
+6. Follow the prompts
 
 # Else (you care how it works): 
 ___
