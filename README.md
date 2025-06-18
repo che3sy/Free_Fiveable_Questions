@@ -11,6 +11,8 @@ Allows anyone to get all of [Fiveable](https://fiveable.me/) questions for free
 6. Follow the prompts
 7. The csv with all the questions will be saved in the fiveable folder :) 
 
+if u dont understand or got some error just ask chatgpt and send git link
+
 # Else (you care how it works): 
 ___
 
