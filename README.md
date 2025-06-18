@@ -19,7 +19,7 @@ They cleary don't provide any documentation on their api, but we can work back b
 ## Step 1 - get slugs:
 All the slugs of the database are stored at this url: https://library.fiveable.me/_next/data/H6rl5wshOljn2Oaxn4Hbn/index.json 
 
-We can use a simple script to extract all the slugs from here, the file which does that is [getSlugs.py](getSlugs.py)
+We can use a simple script to extract all the slugs from here, the file which does that is [getSlug.py](getSlug.py)
 Here is the core logic:
 ```python
 url = "https://library.fiveable.me/_next/data/H6rl5wshOljn2Oaxn4Hbn/index.json"
@@ -54,7 +54,7 @@ for item in stats_sub_branches:
 ## Step 2 - get Unit ids:
 Now we can get the units in a subject, using this endpoint: https://library.fiveable.me/api/subjects/{slug}/getAllNavigationData ({slug} is the respective slug) 
 
-Here is a example response for ap-calc:
+Here is an example response for ap-calc:
 ```json
 {
   "getNavigationSubject": {
@@ -93,7 +93,7 @@ Here is a example response for ap-calc:
           },...
 ```
 
-We can make simple function to get this and put it in a simple data structure. File responsilbe for this is [getUnitId.py](getUnitId.py)
+We can make a simple function to get this and put it in a simple data structure. The file responsible for this is [getUnitId.py](getUnitId.py)
 ```python
 def get_subject_navigation(slug: str) -> dict:
     url = f"https://library.fiveable.me/api/subjects/{slug}/getAllNavigationData"
@@ -138,7 +138,7 @@ def get_subject_navigation(slug: str) -> dict:
 ```
 
 ## Step 3 - get the questions:
-Here is the finnal url we will use to fetch the questions: https://library.fiveable.me/api/practice-questions
+Here is the final URL we will use to fetch the questions: https://library.fiveable.me/api/practice-questions
 We add three things to the request:
 - subjectId = the slug
 - unitId = the unit
@@ -203,7 +203,7 @@ def get_practice_questions(subject_slug: str, unit_id: str, topic_id: str, limit
     return processed_questions
 ```
 
-Thats It! 
+That's It! 
 
 
 
